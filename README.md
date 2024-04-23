@@ -8,7 +8,7 @@ url: The URL from which to download files.
 -t or --threads: The number of threads to use for parallel downloads.
 --user-agent: A custom User-Agent string to use for HTTP requests.
 
-1, HTTP Session: The script creates an HTTP session with the specified User-Agent string.
+1, HTTP Session: The script creates an HTTP session with the specified User-Agent string.<br>
 2, URL Validation: It checks if the provided URL is within the scope of the base URL to prevent downloading files from external websites.
 3, Page Content Fetching: The script fetches the HTML content of the initial URL and subsequent pages using the HTTP session.
 4, Link Extraction: It parses the HTML content to extract links to files and other pages within the specified scope.
