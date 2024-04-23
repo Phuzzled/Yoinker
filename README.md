@@ -1,11 +1,14 @@
 # Yoinker
 Yoinker is designed to download files from a specified URL and categorize them into folders based on their file types. It employs multi-threading for efficient parallel downloads.
 
-Command-Line Arguments: The script accepts command-line arguments to configure its behavior:
+Command-Line Arguments: The script accepts command-line arguments to configure its behaviour:
 
 url: The URL from which to download files.
+
 -o or --output: The output directory where downloaded files will be stored.
+
 -t or --threads: The number of threads to use for parallel downloads.
+
 --user-agent: A custom User-Agent string to use for HTTP requests.
 
 1. HTTP Session: The script creates an HTTP session with the specified User-Agent string.
